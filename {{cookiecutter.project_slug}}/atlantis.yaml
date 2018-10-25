@@ -1,0 +1,9 @@
+version: 2
+projects:
+- name: dev-network
+  dir: environments/dev/network
+  workspace: default
+  autoplan:
+    when_modified: ["*.tf", secrets.auto.tfvars']
+    enabled: true
+  apply_requirements: []

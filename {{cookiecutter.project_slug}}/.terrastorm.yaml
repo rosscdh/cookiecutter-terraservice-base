@@ -1,0 +1,11 @@
+base:
+    environments: ./environments
+    layers: ./layers
+    modules: ./modules
+templates:
+    project: https://github.com/williamtsoi1/terraservices-example.git
+    module: https://github.com/rosscdh/cookiecutter-terramodule.git
+    layer: https://github.com/rosscdh/cookiecutter-terramodule.git
+    service: https://github.com/rosscdh/cookiecutter-terraservice.git
+aws:
+    region: eu-west-1
